@@ -1,0 +1,72 @@
+/* styles.css */
+
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.head {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.head.page {
+    background-color: rgb(174, 252, 95);
+}
+
+.link {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+
+.sub-head {
+    font-size: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p,
+.unsorted-list,
+.sorted-list,
+img {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 500px;
+}
+
+p {
+    background-color: azure;
+}
+
+.unsorted-list {
+    font-family: 'Courier New', sans-serif;
+    font-weight: bold;
+    background-color: rgb(251, 255, 135);
+}
+
+.sorted-list {
+    background-color: bisque;
+}
+
+.unsorted-list.butter-chicken {
+    background-color: rgb(255, 174, 145);
+}
+
+.sorted-list.butter-chicken {
+    background-color: rgb(156, 191, 255);
+}
+
+.unsorted-list.sushi {
+    background-color: rgb(255, 170, 187);
+}
+
+.sorted-list.sushi {
+    background-color: rgb(131, 222, 255);
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
