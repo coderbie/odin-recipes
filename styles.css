@@ -1,24 +1,28 @@
 /* styles.css */
 
-
 body{
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 .head {
+    display: block;
     text-align: center;
     background-color: aquamarine;
+    padding: 8px;
+    margin: 10px auto;
 }
 
 .head.page {
     background-color: rgb(174, 252, 95);
+    padding: 8px;
+    width: fit-content;
+    margin: 10px auto;
 }
 
 .link {
     font-weight: bold;
     font-size: 22px;
-    color: rgb(0, 0, 0);
-    background-color: yellow;
+    color: rgb(0, 76, 255);
 }
 
 .sub-head {
@@ -27,27 +31,44 @@ body{
     margin-right: 50px;
 }
 
+.recipe-list {
+    display: inline-block;
+    background-color: rgb(255, 203, 155);
+    padding: 6px;
+}
+
 p,
 .unsorted-list,
 .sorted-list,
 img {
     font-size: 18px;
-    margin-left: 50px;
-    margin-right: 500px;
+    /* margin-left: 50px;
+    margin-right: 300px; */
 }
 
 p {
     background-color: azure;
 }
 
+#paragraph {
+    background-color: azure;
+}
+
+#lasagna-img {
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+div {
+    /* box-sizing: border-box; */
+    background-color: rgb(251, 255, 135);
+    margin: 0 300px 0 50px;
+    padding: 8px;
+}
+
 .unsorted-list {
     font-family: 'Courier New', sans-serif;
     font-weight: bold;
-    background-color: rgb(251, 255, 135);
-}
-
-.sorted-list {
-    background-color: bisque;
 }
 
 .unsorted-list.butter-chicken {
